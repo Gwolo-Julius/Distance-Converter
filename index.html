@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classic Distance Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+   
+</head>
+<body>
+    <div class="outer-container">
+        <div class="circle-outer">
+            <div class="circle-inner"></div>
+        </div>
+       
+        <div class="inner-container">
+            <div><h2>SONY <sup>R</sup></h2></div>
+            <div class="screen-container">
+                <p class="mypara"></p>
+                <input type="text" name="" id="myinput" class="input">
+                <div id="answer">
+                    <input type="text" name="" id="myoutput" onclick="Clear('')" class="invisible">
+                </div>
+               
+               
+            </div>
+            <div class="distance-container">
+                <button class="metrix" id="kilometer">Convert to Km</button>
+                <button class="metrix" id="miles">Convert to Miles</button>
+            </div>
+            <div class="button-container">
+               <div class="group1">
+                    <button class="numbtn" onclick="display('1')">1</button>
+                    <button class="numbtn" onclick="display('2')">2</button>
+                    <button class="numbtn" onclick="display('3')">3</button>
+                    <button class="numbtn" onclick="display('4')">4</button>
+                    <button class="numbtn" onclick="display('5')">5</button>
+               </div> <br>
+                
+               <div class="group2">
+                    <button class="numbtn" onclick="display('6')">6</button>
+                    <button class="numbtn" onclick="display('7')">7</button>
+                    <button class="numbtn" onclick="display('8')">8</button>
+                    <button class="numbtn" onclick="display('9')">9</button>
+                    <button class="numbtn" onclick="display('0')">0</button>
+               </div>
+            </div>
+            <div class="converter">
+                <button class="clear-screen" onclick="Clear('')">Delete</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
